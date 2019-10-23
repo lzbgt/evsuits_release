@@ -41,6 +41,6 @@
 
   Output: Oct 23 00:01:22 raspberrypi evsuits[6232]: [2019-10-23 00:01:22.002] [info] evdaemon 0017SRTC received ...
   ```
-  something linke "0017SRTC" is the device SN.
+  something like "0017SRTC" is the device SN.
 - configure the cluster by posting on evcloud.ilabservice.cloud:8089/config or by control center platform.
 
