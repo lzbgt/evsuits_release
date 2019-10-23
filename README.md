@@ -54,5 +54,5 @@
   ```
 - maybe below libs are required:
   ```
-   apt install -y libtool libssl-dev cmake pkg-config libjpeg-dev libtiff-dev libpng12-dev libjasper-dev
+   apt install -y libssl-dev pkg-config libjpeg-dev libtiff-dev libpng12-dev libjasper-dev
   ```
