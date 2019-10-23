@@ -44,3 +44,15 @@
   something like "0017SRTC" is the device SN.
 - configure the cluster by posting on evcloud.ilabservice.cloud:8089/config or by control center platform.
 
+
+## extra steps to configure board system
+- install openssh-server
+  ```
+  apt install openssh-server
+  systemctl enable ssh
+  systemctl start ssh
+  ```
+- maybe below libs are required:
+  ```
+   apt install -y libtool libssl-dev cmake pkg-config libjpeg-dev libtiff-dev libpng12-dev libjasper-dev
+  ```
