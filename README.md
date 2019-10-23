@@ -45,7 +45,7 @@
 - configure the cluster by posting on evcloud.ilabservice.cloud:8089/config or by control center platform.
 
 
-## extra steps to configure board system
+## extra steps to configure the board system
 - install openssh-server
   ```
   apt install openssh-server
